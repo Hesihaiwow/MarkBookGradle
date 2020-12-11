@@ -1,0 +1,396 @@
+2020-12-11 11:00:51,775 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-12-11 11:00:52,562 [    787]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-202.6948.69, 25 Aug 2020 05:22) 
+2020-12-11 11:00:52,568 [    793]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-12-11 11:00:52,568 [    793]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_221-b11 (Oracle Corporation) 
+2020-12-11 11:00:52,568 [    793]   INFO -        #com.intellij.idea.Main - JVM: 25.221-b11 (Java HotSpot(TM) 64-Bit Server VM) 
+2020-12-11 11:00:52,645 [    870]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=C:\Users\r\Desktop\MarkBookGradle\build\idea-sandbox\config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=C:\Users\r\Desktop\MarkBookGradle\build\idea-sandbox\plugins -Didea.required.plugins.id=com.zxhx.markbook.id -Didea.system.path=C:\Users\r\Desktop\MarkBookGradle\build\idea-sandbox\system -Xms256m -Xmx512m -Dfile.encoding=GBK -Duser.country=CN -Duser.language=zh -Duser.variant -ea 
+2020-12-11 11:00:52,649 [    874]   INFO -        #com.intellij.idea.Main - ext: C:\soft\java\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-12-11 11:00:52,649 [    874]   INFO -        #com.intellij.idea.Main - library path: C:\soft\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\soft\Git\cmd;C:\soft\apache-maven-3.6.1\bin;C:\soft\java\bin;C:\Program Files\TortoiseGit\bin;C:\soft\bin;C:\soft\scala\bin;C:\soft\hadoop-2.9.1\bin;C:\soft\scala\bin;C:\python3.7;C:\Program Files (x86)\scala\bin;C:\soft\gradle-5.4.1\bin;C:\Users\r\Desktop\apache-ant-1.9.15-bin\apache-ant-1.9.15\bin;C:\soft\hadoop-2.9.1\sbin;%MYSQL_HOME%\bin;C:\soft\android-sdk-windows\platform-tools;C:\soft\android-sdk-windows\tools;C:\selfjdk1.8\linux-x86_64-normal-server-fastdebug\jdk\bin;C:\nodejs\;C:\soft\Redis-x64-5.0.9\;C:\nodejs\node_global;C:\nodejs\node_cache;C:\soft\MySQL\MySQL Server 5.7\bin;C:\soft;C:\python3.7\Scripts\;C:\python3.7\;C:\Users\r\Anaconda3;C:\Users\r\Anaconda3\Library\mingw-w64\bin;C:\Users\r\Anaconda3\Library\usr\bin;C:\Users\r\Anaconda3\Library\bin;C:\Users\r\Anaconda3\Scripts;C:\Users\r\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\bin;;C:\Users\r\AppData\Local\Programs\Microsoft VS Code\bin;;. 
+2020-12-11 11:00:52,649 [    874]   INFO -        #com.intellij.idea.Main - boot library path: C:\soft\java\jre\bin 
+2020-12-11 11:00:52,651 [    876]   INFO -        #com.intellij.idea.Main - locale=zh_CN JNU=GBK file.encoding=GBK
+  idea.config.path=C:\Users\r\Desktop\MarkBookGradle\build\idea-sandbox\config
+  idea.system.path=C:\Users\r\Desktop\MarkBookGradle\build\idea-sandbox\system
+  idea.plugins.path=C:\Users\r\Desktop\MarkBookGradle\build\idea-sandbox\plugins
+  idea.log.path=C:\Users\r\Desktop\MarkBookGradle\build\idea-sandbox\system/log 
+2020-12-11 11:00:53,131 [   1356]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 480 ms 
+2020-12-11 11:00:53,176 [   1401]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-12-11 11:00:54,669 [   2894]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, path=C:\soft\apache-maven-3.6.1\resposity\caches\modules-2\files-2.1\com.jetbrains.intellij.idea\ideaIC\2020.2.1\a3f8c1e5b23dacbb6515571c2d97b455643d766d\ideaIC-2020.2.1\plugins\Groovy, version=202.6948.69) misses optional descriptor duplicates-groovy.xml 
+java.nio.file.NoSuchFileException: META-INF/duplicates-groovy.xml
+	at com.sun.nio.zipfs.ZipFileSystem.newInputStream(ZipFileSystem.java:544)
+	at com.sun.nio.zipfs.ZipPath.newInputStream(ZipPath.java:645)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newInputStream(ZipFileSystemProvider.java:278)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at com.intellij.openapi.util.JDOMUtil.load(JDOMUtil.java:351)
+	at com.intellij.ide.plugins.BasePathResolver.resolvePath(BasePathResolver.java:54)
+	at com.intellij.ide.plugins.PluginXmlPathResolver.resolvePath(PluginXmlPathResolver.java:58)
+	at com.intellij.ide.plugins.XmlReader.readDependencies(XmlReader.java:215)
+	at com.intellij.ide.plugins.IdeaPluginDescriptorImpl.readExternal(IdeaPluginDescriptorImpl.java:190)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromJar(PluginDescriptorLoader.java:94)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromDirAndNormalize(PluginDescriptorLoader.java:145)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromFileOrDir(PluginDescriptorLoader.java:120)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptor(PluginDescriptorLoader.java:44)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.lambda$loadDescriptorsFromDir$1(PluginDescriptorLoader.java:246)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:215)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:26)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:194)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:186)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:652)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:649)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:649)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-11 11:00:54,672 [   2897]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, path=C:\soft\apache-maven-3.6.1\resposity\caches\modules-2\files-2.1\com.jetbrains.intellij.idea\ideaIC\2020.2.1\a3f8c1e5b23dacbb6515571c2d97b455643d766d\ideaIC-2020.2.1\plugins\Groovy, version=202.6948.69) misses optional descriptor duplicates-detection-groovy.xml 
+java.nio.file.NoSuchFileException: META-INF/duplicates-detection-groovy.xml
+	at com.sun.nio.zipfs.ZipFileSystem.newInputStream(ZipFileSystem.java:544)
+	at com.sun.nio.zipfs.ZipPath.newInputStream(ZipPath.java:645)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newInputStream(ZipFileSystemProvider.java:278)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at com.intellij.openapi.util.JDOMUtil.load(JDOMUtil.java:351)
+	at com.intellij.ide.plugins.BasePathResolver.resolvePath(BasePathResolver.java:54)
+	at com.intellij.ide.plugins.PluginXmlPathResolver.resolvePath(PluginXmlPathResolver.java:58)
+	at com.intellij.ide.plugins.XmlReader.readDependencies(XmlReader.java:215)
+	at com.intellij.ide.plugins.IdeaPluginDescriptorImpl.readExternal(IdeaPluginDescriptorImpl.java:190)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromJar(PluginDescriptorLoader.java:94)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromDirAndNormalize(PluginDescriptorLoader.java:145)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromFileOrDir(PluginDescriptorLoader.java:120)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptor(PluginDescriptorLoader.java:44)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.lambda$loadDescriptorsFromDir$1(PluginDescriptorLoader.java:246)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:215)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:26)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:194)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:186)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:652)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:649)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:649)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-11 11:00:54,773 [   2998]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Java, id=com.intellij.java, path=C:\soft\apache-maven-3.6.1\resposity\caches\modules-2\files-2.1\com.jetbrains.intellij.idea\ideaIC\2020.2.1\a3f8c1e5b23dacbb6515571c2d97b455643d766d\ideaIC-2020.2.1\plugins\java, version=202.6948.69) misses optional descriptor profiler-java.xml 
+java.nio.file.NoSuchFileException: META-INF/profiler-java.xml
+	at com.sun.nio.zipfs.ZipFileSystem.newInputStream(ZipFileSystem.java:544)
+	at com.sun.nio.zipfs.ZipPath.newInputStream(ZipPath.java:645)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newInputStream(ZipFileSystemProvider.java:278)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at com.intellij.openapi.util.JDOMUtil.load(JDOMUtil.java:351)
+	at com.intellij.ide.plugins.BasePathResolver.resolvePath(BasePathResolver.java:54)
+	at com.intellij.ide.plugins.PluginXmlPathResolver.resolvePath(PluginXmlPathResolver.java:58)
+	at com.intellij.ide.plugins.XmlReader.readDependencies(XmlReader.java:215)
+	at com.intellij.ide.plugins.IdeaPluginDescriptorImpl.readExternal(IdeaPluginDescriptorImpl.java:190)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromJar(PluginDescriptorLoader.java:94)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromDirAndNormalize(PluginDescriptorLoader.java:145)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptorFromFileOrDir(PluginDescriptorLoader.java:120)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.loadDescriptor(PluginDescriptorLoader.java:44)
+	at com.intellij.ide.plugins.PluginDescriptorLoader.lambda$loadDescriptorsFromDir$1(PluginDescriptorLoader.java:246)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:215)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:26)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:194)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:186)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:652)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:649)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:649)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-11 11:00:55,060 [   3285]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (202.6948.69), com.intellij.platform.images (202.6948.69), JetBrains maven model api classes (202.6948.69), JetBrains Repository Search (202.6948.69), Subversion (202.6948.69), XPathView + XSLT (202.6948.69), XSLT Debugger (202.6948.69), Smali Support (202.6948.69), Configuration Script (202.6948.69), Copyright (202.6948.69), Gradle (202.6948.69), Java (202.6948.69), Bytecode Viewer (202.6948.69), JUnit (202.6948.69), Java IDE Customization (202.6948.69), Java Stream Debugger (202.6948.69), Eclipse Interoperability (202.6948.69), Java Bytecode Decompiler (202.6948.69), macOS Light Theme (202.6948.69), Windows 10 Light Theme (202.6948.69), Properties (202.6948.69), Ant (202.6948.69), Java Internationalization (202.6948.69), UI Designer (202.6948.69), JavaFX (202.6948.69), Resource Bundle Editor (202.6948.69), Machine Learning Code Completion (202.6948.69), Task Management (202.6948.69), Mercurial (202.6948.69), Webp Support (202.6948.69), EditorConfig (202.6948.69), Terminal (202.6948.69), Git (202.6948.69), ChangeReminder (202.6948.69), Next File Prediction (202.6948.69), GitHub (202.6948.69), Shell Script (202.6948.69), TextMate Bundles (202.6948.69), YAML (202.6948.69), Settings Repository (202.6948.69), IntelliLang (202.6948.69), TestNG (202.6948.69), Code Coverage for Java (202.6948.69), Groovy (202.6948.69), Maven (202.6948.69), Gradle-Java (202.6948.69), Plugin DevKit (202.6948.69), Gradle-Maven (202.6948.69), Kotlin (1.3.72-release-IJ2020.1-6), Android (10.4.0.202.6948.69), Markdown (202.6948.69), Grazie (202.6948.69) 
+2020-12-11 11:00:55,060 [   3285]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: MarkBook (1.0-SNAPSHOT) 
+2020-12-11 11:00:55,910 [   4135]   INFO - om.intellij.ui.scale.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI) 
+2020-12-11 11:00:55,911 [   4136]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 6; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@60791bef[Running, parallelism = 5, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@76d6e373 
+2020-12-11 11:00:56,891 [   5116]   WARN - pi.util.registry.RegistryValue - The registry key 'ide.cache.screen.insets' accessed, but not loaded yet 
+2020-12-11 11:00:56,936 [   5161]   WARN - pi.util.registry.RegistryValue - The registry key 'ide.insets.cache.timeout' accessed, but not loaded yet 
+2020-12-11 11:00:57,372 [   5597]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=435; buffer=10; max=435 
+2020-12-11 11:00:57,412 [   5637]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-12-11 11:00:57,412 [   5637]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-12-11 11:00:57,819 [   6044]   INFO - fs.newvfs.persistent.FSRecords - Marking VFS as corrupted: 'C:\Users\r\Desktop\MarkBookGradle\build\idea-sandbox\system\caches\names.dat' does not exist 
+2020-12-11 11:00:57,835 [   6060]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-12-11 11:00:58,342 [   6567]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2020-12-11 11:00:58,368 [   6593]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2020-12-11 11:00:58,368 [   6593]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2020-12-11 11:00:58,527 [   6752]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\soft\apache-maven-3.6.1\resposity\caches\modules-2\files-2.1\com.jetbrains.intellij.idea\ideaIC\2020.2.1\a3f8c1e5b23dacbb6515571c2d97b455643d766d\ideaIC-2020.2.1\bin\win\fsnotifier64.exe 
+2020-12-11 11:00:58,928 [   7153]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-12-11 11:00:58,952 [   7177]   INFO - stubs.SerializationManagerImpl - Name storage is repaired 
+2020-12-11 11:00:59,375 [   7600]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-12-11 11:01:00,946 [   9171]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-12-11 11:01:01,051 [   9276]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.p9.show.roots.in.file.chooser, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, copy.reference.popup, new.large.text.file.viewer, property.value.inplace.editing, terminal.shell.command.handling 
+2020-12-11 11:01:02,840 [  11065]   INFO - il.indexing.FileBasedIndexImpl - Indexes to be rebuilt after corruption:FilenameIndex(v = 3),FrameworkDetectionIndex(v = 0),TodoIndex(v = 4107),IdIndex(v = 4113),filetypes(v = 3),Stubs(v = 46),Trigram.Index(v = 4099),fileIncludes(v = 6),DomFileIndex(v = -1189920956),RelaxSymbolIndex(v = 0),XmlTagNames(v = 1),XmlNamespaces(v = 8),html5.custom.attributes.index(v = 1),SchemaTypeInheritance(v = 2),json.file.root.values(v = 5),XsltSymbolIndex(v = 0),bytecodeAnalysis(v = 4107),java.auto.module.name(v = 5),java.source.module.name(v = 2),java.null.method.argument(v = 4097),java.fun.expression(v = 4102),java.binary.plus.expression(v = 4100),xmlProperties(v = 2),ant-imports(v = 5),com.intellij.uiDesigner.FormClassIndex(v = 0),JavaFxControllerClassIndex(v = 1),javafx.id.name(v = 3),javafx.custom.component(v = 2),editorconfig.index.name(v = 5),yaml.keys.name(v = 1),groovy.trait.fields(v = 5),groovy.trait.methods(v = 25),IdeaPluginRegistrationIndex(v = 3),PluginIdModuleIndex(v = 1),PluginIdDependenciesIndex(v = 1),devkit.ExtensionPointIndex(v = 0),org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex(v = 5),org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex(v = 4),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex(v = 5),org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex(v = 2),org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex(v = 1),org.jetbrains.kotlin.ide.konan.index.KotlinNativeMetaFileIndex(v = 4),com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME(v = 4),BindingXmlIndex(v = 7),MlModelFileIndex(v = 1) 
+2020-12-11 11:01:02,850 [  11075]   INFO - leBasedIndexDataInitialization - Initialization done: 4781 
+2020-12-11 11:01:04,098 [  12323]   INFO - tellij.psi.stubs.StubIndexImpl - Following stub indices will be built:dom.namespaceKey(v = 1),dom.elementClass(v = 0),properties.index(v = 2),gr.class.fqn(v = 1),gr.script.fqn(v = 2),gr.field.name(v = 2),gr.method.name(v = 2),gr.annot.method.name(v = 2),gr.annot.members(v = 2),gr.script.class(v = 2),gr.class.super(v = 2),gr.anonymous.class(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex(v = 2),markdown.header(v = 2),java.annotations(v = 2),java.class.extlist(v = 3),java.field.name(v = 2),java.method.name(v = 2),jvm.static.member.name(v = 2),jvm.static.member.type(v = 2),java.anonymous.baseref(v = 2),java.method.parameter.types(v = 3),java.class.shortname(v = 4),java.class.fqn(v = 1),java.module.name(v = 4) 
+2020-12-11 11:01:04,098 [  12323]   INFO - exImpl$StubIndexInitialization - Initialization done: 1248 
+2020-12-11 11:07:09,491 [ 377716]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 15 ms, DebuggerSettings took 38 ms 
+2020-12-11 11:08:14,253 [ 442478]   INFO - rationStore.ComponentStoreImpl - Saving appInspectionProfileManager took 18 ms 
+2020-12-11 11:09:03,388 [ 491613]   INFO - lij.impl.ConversionServiceImpl - conversion will be performed because at least C:\Users\r\IdeaProjects\blog-1\.idea\modules.xml is changed (oldLastModified=-1, newLastModified=1600838765884 
+2020-12-11 11:09:03,545 [ 491770]   INFO - BridgeProjectLifecycleListener - Using legacy project model to open project 
+2020-12-11 11:09:03,679 [ 491904]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [<Project>] 
+2020-12-11 11:09:03,701 [ 491926]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2020-12-11 11:09:03,823 [ 492048]   WARN - Container.ComponentManagerImpl - Do not use constructor injection (requestorClass=org.jetbrains.android.compose.AndroidComposeAutoDocumentation) 
+2020-12-11 11:09:04,168 [ 492393]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2020-12-11 11:09:04,192 [ 492417]   WARN - tartup.impl.StartupManagerImpl - Activities registered via registerPostStartupActivity must be dumb-aware: org.jetbrains.kotlin.idea.configuration.ui.KotlinConfigurationCheckerComponent$projectOpened$1@6d16f92e 
+2020-12-11 11:09:04,425 [ 492650]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  MarkBook) or icon jar:file:/C:/Users/r/Desktop/MarkBookGradle/build/idea-sandbox/plugins/MarkBookGradle/lib/MarkBookGradle-1.0-SNAPSHOT.jar!/com/zhixinhuixue/windows/ 
+2020-12-11 11:09:04,618 [ 492843]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 13 millis (read time: 2) 
+2020-12-11 11:09:04,647 [ 492872]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@d88f58e 
+2020-12-11 11:09:04,680 [ 492905]   INFO - pl.projectlevelman.NewMappings - Mapped Roots: 1 
+2020-12-11 11:09:04,685 [ 492910]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2020-12-11 11:09:04,881 [ 493106]   INFO - ProjectRootPostStartUpActivity - C:/Users/r/IdeaProjects/blog-1/.idea case-sensitivity: expected=false actual=false 
+2020-12-11 11:09:04,896 [ 493121]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 582ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:09:04,900 [ 493125]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 1398 ms 
+2020-12-11 11:09:05,159 [ 493384]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 378ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:09:05,264 [ 493489]   INFO - ots.impl.jdkDownloader.JdkAuto - Looking for a local SDK for JDK with name MissingSdkInfo(mySdkName=1.8, mySdkType=JavaSDK) 
+2020-12-11 11:09:05,362 [ 493587]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 202ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:09:05,434 [ 493659]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 282 files to index 
+2020-12-11 11:09:05,438 [ 493663]   INFO - indexing.UnindexedFilesUpdater - Using 4 threads for indexing 
+2020-12-11 11:09:05,500 [ 493725]   INFO -  #git4idea.commands.GitHandler - git version 2.22.0.windows.1 
+2020-12-11 11:09:05,577 [ 493802]   INFO - ea.config.GitExecutableManager - Git version for C:\soft\Git\cmd\git.exe: 2.22.0.0 (MSYS) 
+2020-12-11 11:09:05,854 [ 494079]   WARN - s.ui.configuration.SdkDetector - No version is returned for detected SDK JavaSDK at C:\selfjdk1.8\linux-x86_64-normal-server-fastdebug\jdk 
+2020-12-11 11:09:06,061 [ 494286]   INFO - penapi.project.DumbServiceImpl - cancel com.intellij.util.indexing.UnindexedFilesUpdater@d88f58e 
+2020-12-11 11:09:06,130 [ 494355]   INFO - pl.ProjectRootManagerComponent - project roots have changed (trace_hash = -1020305505) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:306)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:210)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:428)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.access$200(ProjectRootManagerImpl.java:37)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:96)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.mergeRootsChangesDuring(ProjectRootManagerImpl.java:338)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$JdkTableMultiListener.jdkAdded(ProjectRootManagerImpl.java:591)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeListener(MessageBusImpl.java:632)
+	at com.intellij.util.messages.impl.MessageBusImpl.deliverMessage(MessageBusImpl.java:406)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:384)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:366)
+	at com.intellij.util.messages.impl.MessageBusImpl.access$100(MessageBusImpl.java:32)
+	at com.intellij.util.messages.impl.MessageBusImpl$MessagePublisher.invoke(MessageBusImpl.java:187)
+	at com.sun.proxy.$Proxy95.jdkAdded(Unknown Source)
+	at com.intellij.openapi.projectRoots.impl.ProjectJdkTableImpl.addJdk(ProjectJdkTableImpl.java:252)
+	at com.intellij.openapi.projectRoots.impl.UnknownSdkTracker.lambda$registerNewSdkInJdkTable$10(UnknownSdkTracker.java:335)
+	at com.intellij.openapi.application.WriteAction.run(WriteAction.java:102)
+	at com.intellij.openapi.projectRoots.impl.UnknownSdkTracker.registerNewSdkInJdkTable(UnknownSdkTracker.java:322)
+	at com.intellij.openapi.projectRoots.impl.UnknownSdkTracker.lambda$configureLocalSdk$9(UnknownSdkTracker.java:283)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:201)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:322)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:132)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:47)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:188)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:971)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:841)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:744)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:451)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:499)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-12-11 11:09:06,131 [ 494356]   INFO - ctRoots.impl.UnknownSdkTracker - Automatically set Sdk MissingSdkInfo(mySdkName=1.8, mySdkType=JavaSDK) to C:\soft\java 
+2020-12-11 11:09:06,162 [ 494387]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2020-12-11 11:09:06,162 [ 494387]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@6f1a1725 
+2020-12-11 11:09:06,184 [ 494409]   WARN - ion.impl.NotificationCollector - Notification group 'Heap Dump Analysis' is already registered in whitelist 
+2020-12-11 11:09:06,184 [ 494409]   WARN - ion.impl.NotificationCollector - Notification group 'Low Memory' is already registered in whitelist 
+2020-12-11 11:09:06,205 [ 494430]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 39ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2020-12-11 11:09:09,861 [ 498086]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3656ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:09:09,862 [ 498087]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 42802 files to index 
+2020-12-11 11:09:09,862 [ 498087]   INFO - indexing.UnindexedFilesUpdater - Using 4 threads for indexing 
+2020-12-11 11:09:10,918 [ 499143]   INFO - gnostic.WindowsDefenderChecker - Windows Defender status: not used 
+2020-12-11 11:09:10,920 [ 499145]   WARN - .intellij.diagnostic.VMOptions - VM options file not configured 
+2020-12-11 11:09:10,921 [ 499146]   INFO - gnostic.MemorySizeConfigurator - Physical memory 16315M, minimum memory size 256M, -Xmx adjusted from 512M to 2039M 
+2020-12-11 11:09:23,175 [ 511400]   INFO - .openapi.util.LowMemoryWatcher - Low memory signal received: afterGc=false 
+2020-12-11 11:09:27,040 [ 515265]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 17178ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:09:27,041 [ 515266]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.binary.plus.expression. requests: 24, hits: 0, misses: 24 
+2020-12-11 11:09:27,041 [ 515266]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.fun.expression. requests: 25, hits: 0, misses: 25 
+2020-12-11 11:09:27,041 [ 515266]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.null.method.argument. requests: 24, hits: 0, misses: 24 
+2020-12-11 11:09:27,041 [ 515266]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for bytecodeAnalysis. requests: 31580, hits: 0, misses: 31580 
+2020-12-11 11:09:27,041 [ 515266]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for Trigram.Index. requests: 11222, hits: 26, misses: 11196 
+2020-12-11 11:09:27,041 [ 515266]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for IdIndex. requests: 11218, hits: 26, misses: 11192 
+2020-12-11 11:09:27,041 [ 515266]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for TodoIndex. requests: 40, hits: 5, misses: 35 
+2020-12-11 11:09:27,042 [ 515267]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2020-12-11 11:09:27,043 [ 515268]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project(name=blog-1, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1) 
+2020-12-11 11:09:27,159 [ 515384]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@795e76cb 
+2020-12-11 11:09:27,165 [ 515390]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@2340a141 
+2020-12-11 11:09:27,180 [ 515405]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2020-12-11 11:09:27,181 [ 515406]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project(name=blog-1, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1) 
+2020-12-11 11:09:27,191 [ 515416]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@122ca2e8 
+2020-12-11 11:09:27,192 [ 515417]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2020-12-11 11:09:27,193 [ 515418]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project(name=blog-1, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1) 
+2020-12-11 11:09:29,976 [ 518201]   INFO - CompilerWorkspaceConfiguration - Available processors: 6 
+2020-12-11 11:09:32,721 [ 520946]   INFO - ta.index.VcsLogPersistentIndex - Indexing full repository in blog-1 
+2020-12-11 11:09:33,585 [ 521810]   INFO - ta.index.VcsLogPersistentIndex - 864ms for indexing 5 commits in blog-1 
+2020-12-11 11:09:46,807 [ 535032]   WARN - com.intellij.util.xmlb.Binding - no accessors for org.jetbrains.kotlin.idea.scripting.gradle.GradleScriptInputsWatcher$Storage 
+2020-12-11 11:09:46,817 [ 535042]   WARN - com.intellij.util.xmlb.Binding - no accessors for org.jetbrains.kotlin.idea.core.script.configuration.utils.ScriptClassRootsStorage 
+2020-12-11 11:09:46,990 [ 535215]   INFO - lij.impl.ConversionServiceImpl - conversion will be performed because at least C:\Users\r\IdeaProjects\blog-1\blog\.idea\libraries\Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml is changed (oldLastModified=-1, newLastModified=1600840622333 
+2020-12-11 11:09:47,025 [ 535250]   INFO - BridgeProjectLifecycleListener - Using legacy project model to open project 
+2020-12-11 11:09:47,037 [ 535262]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2020-12-11 11:09:47,045 [ 535270]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [C:/Users/r/IdeaProjects/blog-1] 
+2020-12-11 11:09:47,055 [ 535280]   WARN - Container.ComponentManagerImpl - Do not use constructor injection (requestorClass=org.jetbrains.android.compose.AndroidComposeAutoDocumentation) 
+2020-12-11 11:09:50,271 [ 538496]   WARN - tartup.impl.StartupManagerImpl - Activities registered via registerPostStartupActivity must be dumb-aware: org.jetbrains.kotlin.idea.configuration.ui.KotlinConfigurationCheckerComponent$projectOpened$1@4a3d90b3 
+2020-12-11 11:09:50,352 [ 538577]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  MarkBook) or icon jar:file:/C:/Users/r/Desktop/MarkBookGradle/build/idea-sandbox/plugins/MarkBookGradle/lib/MarkBookGradle-1.0-SNAPSHOT.jar!/com/zhixinhuixue/windows/ 
+2020-12-11 11:09:50,363 [ 538588]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 6 millis (read time: 6) 
+2020-12-11 11:09:50,391 [ 538616]   INFO - ProjectRootPostStartUpActivity - C:/Users/r/IdeaProjects/blog-1/blog/.idea case-sensitivity: expected=false actual=false 
+2020-12-11 11:09:50,411 [ 538636]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@44257c99 
+2020-12-11 11:09:50,437 [ 538662]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 22ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:09:50,466 [ 538691]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 146ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:09:50,490 [ 538715]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3467 ms 
+2020-12-11 11:09:51,156 [ 539381]   INFO -      #org.jetbrains.idea.maven - Sent token to maven server 
+2020-12-11 11:09:53,628 [ 541853]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3191ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:09:53,633 [ 541858]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 37776 files to index 
+2020-12-11 11:09:53,634 [ 541859]   INFO - indexing.UnindexedFilesUpdater - Using 4 threads for indexing 
+2020-12-11 11:09:54,616 [ 542841]   INFO -      #org.jetbrains.idea.maven - Sent token to maven server 
+2020-12-11 11:09:55,924 [ 544149]   INFO - gnostic.WindowsDefenderChecker - Windows Defender status: not used 
+2020-12-11 11:10:05,627 [ 553852]   WARN - com.intellij.util.xmlb.Binding - no accessors for org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2020-12-11 11:10:20,846 [ 569071]   INFO - .openapi.util.LowMemoryWatcher - Low memory signal received: afterGc=false 
+2020-12-11 11:10:22,514 [ 570739]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 28880ms; general responsiveness: ok; EDT responsiveness: 2/29 sluggish 
+2020-12-11 11:10:22,514 [ 570739]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.binary.plus.expression. requests: 48, hits: 0, misses: 48 
+2020-12-11 11:10:22,514 [ 570739]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.fun.expression. requests: 49, hits: 0, misses: 49 
+2020-12-11 11:10:22,514 [ 570739]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for java.null.method.argument. requests: 48, hits: 0, misses: 48 
+2020-12-11 11:10:22,514 [ 570739]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for bytecodeAnalysis. requests: 67789, hits: 0, misses: 67789 
+2020-12-11 11:10:22,514 [ 570739]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for Trigram.Index. requests: 12775, hits: 148, misses: 12627 
+2020-12-11 11:10:22,514 [ 570739]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for IdIndex. requests: 12771, hits: 148, misses: 12623 
+2020-12-11 11:10:22,514 [ 570739]   INFO - snapshot.SnapshotInputMappings - Snapshot mappings stats for TodoIndex. requests: 64, hits: 5, misses: 59 
+2020-12-11 11:10:22,515 [ 570740]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.FileBasedIndexProjectHandler$2@72164618 [Project(name=blog, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1\blog), ] 
+2020-12-11 11:10:22,516 [ 570741]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 1ms 
+2020-12-11 11:10:22,517 [ 570742]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2020-12-11 11:10:22,517 [ 570742]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project(name=blog, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1\blog) 
+2020-12-11 11:10:22,569 [ 570794]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@71b31cc7 
+2020-12-11 11:10:22,570 [ 570795]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@68f4e986 
+2020-12-11 11:10:22,574 [ 570799]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2020-12-11 11:10:22,576 [ 570801]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project(name=blog, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1\blog) 
+2020-12-11 11:10:22,604 [ 570829]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@1a505da1 
+2020-12-11 11:10:22,607 [ 570832]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2020-12-11 11:10:22,607 [ 570832]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project(name=blog, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1\blog) 
+2020-12-11 11:10:23,061 [ 571286]   INFO - .diagnostic.PerformanceWatcher - Searching for external libraries with Android resources. Found 0 libraries. took 4ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:10:23,070 [ 571295]   INFO - .diagnostic.PerformanceWatcher - Searching for external libraries with Android resources. Found 0 libraries. took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:10:29,013 [ 577238]   INFO - ta.index.VcsLogPersistentIndex - Indexing full repository in blog-1 
+2020-12-11 11:10:29,278 [ 577503]   INFO - ta.index.VcsLogPersistentIndex - 266ms for indexing 5 commits in blog-1 
+2020-12-11 11:10:41,683 [ 589908]   INFO - .diagnostic.PerformanceWatcher - Searching for external libraries with Android resources. Found 0 libraries. took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:10:41,684 [ 589909]   INFO - pl.ProjectRootManagerComponent - project roots have changed (trace_hash = -1422626323) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:306)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:210)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:428)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.access$200(ProjectRootManagerImpl.java:37)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:96)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.mergeRootsChangesDuring(ProjectRootManagerImpl.java:338)
+	at com.intellij.openapi.externalSystem.service.project.AbstractIdeModifiableModelsProvider.commit(AbstractIdeModifiableModelsProvider.java:306)
+	at org.jetbrains.idea.maven.importing.MavenProjectImporter.lambda$importProjectOldWay$10(MavenProjectImporter.java:259)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:980)
+	at org.jetbrains.idea.maven.utils.MavenUtil.lambda$invokeAndWaitWriteAction$1(MavenUtil.java:196)
+	at com.intellij.util.DisposeAwareRunnable.run(DisposeAwareRunnable.java:86)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:201)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeAndWait$8(ApplicationImpl.java:475)
+	at com.intellij.openapi.application.impl.LaterInvocator$1.run(LaterInvocator.java:126)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:132)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:47)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:188)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:971)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:841)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:744)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:451)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:499)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-12-11 11:10:41,695 [ 589920]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@29ad2454 
+2020-12-11 11:10:41,704 [ 589929]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 2ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:10:41,789 [ 590014]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 85ms; general responsiveness: ok; EDT responsiveness: ok 
+2020-12-11 11:10:41,793 [ 590018]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to index 
+2020-12-11 11:10:41,796 [ 590021]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2020-12-11 11:10:41,796 [ 590021]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project(name=blog, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1\blog) 
+2020-12-11 11:10:56,232 [ 604457]   INFO - rationStore.ComponentStoreImpl - Saving Project(name=blog, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1\blog)RunManager took 18 ms 
+2020-12-11 11:12:03,932 [ 672157]   INFO - ution.rmi.RemoteProcessSupport - Terminating: 34442/Maven36ServerImpl867b3de9 
+2020-12-11 11:12:04,015 [ 672240]   INFO -      #org.jetbrains.idea.maven - Sent token to maven server 
+2020-12-11 11:14:03,931 [ 792156]   INFO - ution.rmi.RemoteProcessSupport - Terminating: 27347/Maven36ServerImpld45afce3 
+2020-12-11 11:14:03,965 [ 792190]   WARN -      #org.jetbrains.idea.maven - Failed to update Maven indices for: [local] C:/Users/r/.m2/repository 
+java.lang.RuntimeException: Cannot reconnect.
+	at org.jetbrains.idea.maven.server.RemoteObjectWrapper.performCancelable(RemoteObjectWrapper.java:98)
+	at org.jetbrains.idea.maven.server.MavenIndexerWrapper.updateIndex(MavenIndexerWrapper.java:104)
+	at org.jetbrains.idea.maven.indices.MavenIndex.updateContext(MavenIndex.java:393)
+	at org.jetbrains.idea.maven.indices.MavenIndex.updateOrRepair(MavenIndex.java:339)
+	at org.jetbrains.idea.maven.indices.MavenIndices.updateOrRepair(MavenIndices.java:128)
+	at org.jetbrains.idea.maven.indices.MavenIndicesManager.doUpdateIndices(MavenIndicesManager.java:293)
+	at org.jetbrains.idea.maven.indices.MavenIndicesManager.access$300(MavenIndicesManager.java:42)
+	at org.jetbrains.idea.maven.indices.MavenIndicesManager$3.run(MavenIndicesManager.java:257)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:935)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcessWithProgressAsync$5(CoreProgressManager.java:442)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$3(ProgressRunner.java:235)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:629)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:581)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:60)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$4(ProgressRunner.java:235)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:652)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:649)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:649)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:236)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy138.updateIndex(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.execution.rmi.RemoteUtil.invokeRemote(RemoteUtil.java:155)
+	at com.intellij.execution.rmi.RemoteUtil.access$400(RemoteUtil.java:25)
+	at com.intellij.execution.rmi.RemoteUtil$1.lambda$invoke$0(RemoteUtil.java:139)
+	at com.intellij.openapi.util.ClassLoaderUtil.computeWithClassLoader(ClassLoaderUtil.java:31)
+	at com.intellij.execution.rmi.RemoteUtil.executeWithClassLoader(RemoteUtil.java:207)
+	at com.intellij.execution.rmi.RemoteUtil$1.invoke(RemoteUtil.java:139)
+	at com.sun.proxy.$Proxy138.updateIndex(Unknown Source)
+	at org.jetbrains.idea.maven.server.MavenIndexerWrapper.lambda$updateIndex$2(MavenIndexerWrapper.java:107)
+	at org.jetbrains.idea.maven.server.RemoteObjectWrapper.performCancelable(RemoteObjectWrapper.java:89)
+	... 24 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readByte(DataInputStream.java:265)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:222)
+	... 41 more
+2020-12-11 11:14:04,044 [ 792269]   INFO -      #org.jetbrains.idea.maven - Sent token to maven server 
+2020-12-11 11:15:40,424 [ 888649]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$3@2afaf489 
+2020-12-11 11:15:40,485 [ 888710]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2020-12-11 11:15:40,485 [ 888710]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project(name=blog, containerState=ACTIVE, componentStore=C:\Users\r\IdeaProjects\blog-1\blog) 
+2020-12-11 11:16:36,625 [ 944850]   INFO - rationStore.ComponentStoreImpl - Saving appDiffSettings took 13 ms 

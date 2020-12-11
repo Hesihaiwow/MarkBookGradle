@@ -1,0 +1,23 @@
+<idea-plugin>
+  <id>com.zxhx.markbook.id</id>
+  <name>MarkBook</name>
+  <version>1.0-SNAPSHOT</version>
+  <vendor email="1780606227@qq.com" url="http://www.zxhx.com">zxhx</vendor>
+  <description>
+      这是一款可以帮助程序在阅读代码是添加笔记,并将笔记生成文档的插件。&lt;br&gt;
+      &lt;em&gt;MarkDown文档&lt;/em&gt;
+    </description>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="202.6948" until-build="202.*"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="MarkBook" secondary="true" anchor="right" factoryClass="com.zhixinhuixue.windows.NoteListWindowFactory" icon=""/>
+  </extensions>
+  <actions>
+    <action id="MB_PopupAciton" class="com.zhixinhuixue.action.PopupAction" text="添加文档" description="添加文档">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+  </actions>
+</idea-plugin>

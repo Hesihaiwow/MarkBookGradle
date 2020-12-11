@@ -1,0 +1,716 @@
+{
+  "appInfo" : {
+    "build" : "202.6948.69",
+    "buildDate" : "Tue, 25 Aug 2020 05:22:51 +0800",
+    "productCode" : "IC",
+    "generated" : "Fri, 11 Dec 2020 11:09:27 +0800",
+    "os" : "Windows 10 10.0",
+    "runtime" : "Oracle Corporation 1.8.0_221 1.8.0_221-b11"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 528482304,
+    "numberOfProcessors" : 6,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "blog-1",
+    "numberOfFileProviders" : 3,
+    "totalNumberOfFiles" : 42802,
+    "times" : {
+      "indexingTime" : "20 s 874 ms",
+      "scanFilesTime" : "3 s 656 ms",
+      "pushPropertiesTime" : "39 ms",
+      "indexExtensionsTime" : "< 1 ms",
+      "pushPropertiesStart" : "Fri, 11 Dec 2020 11:09:06 +0800",
+      "pushPropertiesEnd" : "Fri, 11 Dec 2020 11:09:06 +0800",
+      "scanFilesStart" : "Fri, 11 Dec 2020 11:09:06 +0800",
+      "scanFilesEnd" : "Fri, 11 Dec 2020 11:09:09 +0800",
+      "indexExtensionsStart" : "Fri, 11 Dec 2020 11:09:06 +0800",
+      "indexExtensionsEnd" : "Fri, 11 Dec 2020 11:09:06 +0800",
+      "indexingStart" : "Fri, 11 Dec 2020 11:09:06 +0800",
+      "indexingEnd" : "Fri, 11 Dec 2020 11:09:27 +0800"
+    },
+    "numberOfIndexingThreads" : 4,
+    "totalStatsPerFileType" : [ {
+      "fileType" : "CLASS",
+      "partOfTotalIndexingTime" : "56.2%",
+      "partOfTotalContentLoadingTime" : "69.5%",
+      "totalNumberOfFiles" : 31580,
+      "totalFilesSize" : "102.8 MB",
+      "indexingSpeed" : "7.67 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 31554,
+        "totalFilesSize" : "102.75 MB",
+        "partOfTotalIndexingTimeOfThisFileType" : "98.3%"
+      }, {
+        "providerName" : "Module 'blog-1'",
+        "numberOfFiles" : 26,
+        "totalFilesSize" : "57.59 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "1.7%"
+      } ]
+    }, {
+      "fileType" : "JAVA",
+      "partOfTotalIndexingTime" : "35.0%",
+      "partOfTotalContentLoadingTime" : "27.1%",
+      "totalNumberOfFiles" : 10237,
+      "totalFilesSize" : "107.66 MB",
+      "indexingSpeed" : "12.89 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 10213,
+        "totalFilesSize" : "107.63 MB",
+        "partOfTotalIndexingTimeOfThisFileType" : "95.7%"
+      }, {
+        "providerName" : "Module 'blog-1'",
+        "numberOfFiles" : 24,
+        "totalFilesSize" : "32.83 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "4.3%"
+      } ]
+    }, {
+      "fileType" : "Properties",
+      "partOfTotalIndexingTime" : "3.6%",
+      "partOfTotalContentLoadingTime" : "1.3%",
+      "totalNumberOfFiles" : 639,
+      "totalFilesSize" : "2.96 MB",
+      "indexingSpeed" : "3.45 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 635,
+        "totalFilesSize" : "2.96 MB",
+        "partOfTotalIndexingTimeOfThisFileType" : "97.7%"
+      }, {
+        "providerName" : "Module 'blog-1'",
+        "numberOfFiles" : 4,
+        "totalFilesSize" : "100 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "2.3%"
+      } ]
+    }, {
+      "fileType" : "XML",
+      "partOfTotalIndexingTime" : "2.7%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 31,
+      "totalFilesSize" : "1.11 MB",
+      "indexingSpeed" : "1.76 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+        "numberOfFiles" : 21,
+        "totalFilesSize" : "1.06 MB",
+        "partOfTotalIndexingTimeOfThisFileType" : "70.5%"
+      }, {
+        "providerName" : "Module 'blog-1'",
+        "numberOfFiles" : 5,
+        "totalFilesSize" : "4.84 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "27.6%"
+      }, {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 5,
+        "totalFilesSize" : "45.17 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "1.9%"
+      } ]
+    }, {
+      "fileType" : "RNG Compact",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 122,
+      "totalFilesSize" : "461.81 kB",
+      "indexingSpeed" : "2.64 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+        "numberOfFiles" : 122,
+        "totalFilesSize" : "461.81 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "DTD",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 64,
+      "totalFilesSize" : "606.24 kB",
+      "indexingSpeed" : "3.46 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+        "numberOfFiles" : 62,
+        "totalFilesSize" : "601.85 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "99.6%"
+      }, {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "4.39 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "< 1%"
+      } ]
+    }, {
+      "fileType" : "C++",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 17,
+      "totalFilesSize" : "198.12 kB",
+      "indexingSpeed" : "2.91 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 17,
+        "totalFilesSize" : "198.12 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "YAML",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : "1.25 kB",
+      "indexingSpeed" : "22.02 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Module 'blog-1'",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "1.25 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "CSS",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 17,
+      "totalFilesSize" : "437 kB",
+      "indexingSpeed" : "12.3 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 17,
+        "totalFilesSize" : "437 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "PLAIN_TEXT",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 28,
+      "totalFilesSize" : "145.86 kB",
+      "indexingSpeed" : "5.86 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 25,
+        "totalFilesSize" : "133.6 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "62.9%"
+      }, {
+        "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "9.99 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "19.7%"
+      }, {
+        "providerName" : "Module 'blog-1'",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "2.27 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "17.4%"
+      } ]
+    }, {
+      "fileType" : "XHTML",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "2.91 kB",
+      "indexingSpeed" : "128.66 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "2.91 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "Shell Script",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "1.48 kB",
+      "indexingSpeed" : "80.45 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "1.48 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "JavaScript",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 11,
+      "totalFilesSize" : "19.63 kB",
+      "indexingSpeed" : "2.11 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 11,
+        "totalFilesSize" : "19.63 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "Manifest",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 23,
+      "totalFilesSize" : "50.67 kB",
+      "indexingSpeed" : "5.62 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 23,
+        "totalFilesSize" : "50.67 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "GitIgnore file",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "441 B",
+      "indexingSpeed" : "88.38 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Module 'blog-1'",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "441 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "PATCH",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 8,
+      "totalFilesSize" : "4.45 kB",
+      "indexingSpeed" : "2.49 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+        "numberOfFiles" : 8,
+        "totalFilesSize" : "4.45 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "SPI",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 18,
+      "totalFilesSize" : "2.3 kB",
+      "indexingSpeed" : "1.48 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "JDK 1.8",
+        "numberOfFiles" : 18,
+        "totalFilesSize" : "2.3 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "textmate",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : "1.57 kB",
+      "indexingSpeed" : "1.32 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "1.57 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "Stubs",
+      "partOfTotalIndexingTime" : "44.6%",
+      "totalNumberOfFiles" : 32274,
+      "totalFilesSize" : "106.91 MB",
+      "indexingSpeed" : "10.05 MB/s"
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : "25.2%",
+      "totalNumberOfFiles" : 11207,
+      "totalFilesSize" : "113.59 MB",
+      "indexingSpeed" : "18.87 MB/s"
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : "13.2%",
+      "totalNumberOfFiles" : 11219,
+      "totalFilesSize" : "113.62 MB",
+      "indexingSpeed" : "36.06 MB/s"
+    }, {
+      "indexId" : "bytecodeAnalysis",
+      "partOfTotalIndexingTime" : "12.5%",
+      "totalNumberOfFiles" : 31580,
+      "totalFilesSize" : "102.8 MB",
+      "indexingSpeed" : "34.36 MB/s"
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex",
+      "partOfTotalIndexingTime" : "1.4%",
+      "totalNumberOfFiles" : 31580,
+      "totalFilesSize" : "102.8 MB",
+      "indexingSpeed" : "302.4 MB/s"
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex",
+      "partOfTotalIndexingTime" : "1.1%",
+      "totalNumberOfFiles" : 31580,
+      "totalFilesSize" : "102.8 MB",
+      "indexingSpeed" : "407.31 MB/s"
+    }, {
+      "indexId" : "XmlNamespaces",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 19,
+      "totalFilesSize" : "873.91 kB",
+      "indexingSpeed" : "6.64 MB/s"
+    }, {
+      "indexId" : "SchemaTypeInheritance",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 11,
+      "totalFilesSize" : "415.21 kB",
+      "indexingSpeed" : "6.39 MB/s"
+    }, {
+      "indexId" : "TodoIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 37,
+      "totalFilesSize" : "41.74 kB",
+      "indexingSpeed" : "676.84 kB/s"
+    }, {
+      "indexId" : "DomFileIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 31,
+      "totalFilesSize" : "1.11 MB",
+      "indexingSpeed" : "25.9 MB/s"
+    }, {
+      "indexId" : "XmlTagNames",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 11,
+      "totalFilesSize" : "415.21 kB",
+      "indexingSpeed" : "10.52 MB/s"
+    }, {
+      "indexId" : "yaml.keys.name",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : "1.25 kB",
+      "indexingSpeed" : "34.61 kB/s"
+    }, {
+      "indexId" : "java.fun.expression",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 21,
+      "totalFilesSize" : "28.16 kB",
+      "indexingSpeed" : "1.1 MB/s"
+    }, {
+      "indexId" : "java.null.method.argument",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 20,
+      "totalFilesSize" : "25.89 kB",
+      "indexingSpeed" : "1.69 MB/s"
+    }, {
+      "indexId" : "FrameworkDetectionIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 5,
+      "totalFilesSize" : "4.84 kB",
+      "indexingSpeed" : "465.29 kB/s"
+    }, {
+      "indexId" : "ant-imports",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 31,
+      "totalFilesSize" : "1.11 MB",
+      "indexingSpeed" : "116.15 MB/s"
+    }, {
+      "indexId" : "java.binary.plus.expression",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 21,
+      "totalFilesSize" : "28.16 kB",
+      "indexingSpeed" : "3.59 MB/s"
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 11,
+      "totalFilesSize" : "19.63 kB",
+      "indexingSpeed" : "3.14 MB/s"
+    }, {
+      "indexId" : "fileIncludes",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 5,
+      "totalFilesSize" : "4.84 kB",
+      "indexingSpeed" : "963.32 kB/s"
+    }, {
+      "indexId" : "xmlProperties",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 10,
+      "totalFilesSize" : "210.91 kB",
+      "indexingSpeed" : "66.74 MB/s"
+    }, {
+      "indexId" : "IdeaPluginRegistrationIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 31,
+      "totalFilesSize" : "1.11 MB",
+      "indexingSpeed" : "1.07 GB/s"
+    }, {
+      "indexId" : "PluginIdModuleIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 31,
+      "totalFilesSize" : "1.11 MB",
+      "indexingSpeed" : "1.85 GB/s"
+    }, {
+      "indexId" : "RelaxSymbolIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 5,
+      "totalFilesSize" : "4.84 kB",
+      "indexingSpeed" : "17.12 MB/s"
+    }, {
+      "indexId" : "XsltSymbolIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 5,
+      "totalFilesSize" : "4.84 kB",
+      "indexingSpeed" : "20.92 MB/s"
+    }, {
+      "indexId" : "PluginIdDependenciesIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 31,
+      "totalFilesSize" : "1.11 MB",
+      "indexingSpeed" : "5.89 GB/s"
+    }, {
+      "indexId" : "devkit.ExtensionPointIndex",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 31,
+      "totalFilesSize" : "1.11 MB",
+      "indexingSpeed" : "11.61 GB/s"
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "JDK 1.8",
+      "totalNumberOfFiles" : 42520,
+      "totalIndexingTime" : "16 s 222 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "CLASS",
+        "numberOfFiles" : 31554,
+        "totalFilesSize" : "102.75 MB",
+        "partOfTotalIndexingTime" : "59.5%",
+        "partOfTotalContentLoadingTime" : "71.1%"
+      }, {
+        "fileType" : "JAVA",
+        "numberOfFiles" : 10213,
+        "totalFilesSize" : "107.63 MB",
+        "partOfTotalIndexingTime" : "36.1%",
+        "partOfTotalContentLoadingTime" : "26.5%"
+      }, {
+        "fileType" : "Properties",
+        "numberOfFiles" : 635,
+        "totalFilesSize" : "2.96 MB",
+        "partOfTotalIndexingTime" : "3.8%",
+        "partOfTotalContentLoadingTime" : "1.2%"
+      }, {
+        "fileType" : "C++",
+        "numberOfFiles" : 17,
+        "totalFilesSize" : "198.12 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "CSS",
+        "numberOfFiles" : 17,
+        "totalFilesSize" : "437 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "PLAIN_TEXT",
+        "numberOfFiles" : 25,
+        "totalFilesSize" : "133.6 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "XML",
+        "numberOfFiles" : 5,
+        "totalFilesSize" : "45.17 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "JavaScript",
+        "numberOfFiles" : 11,
+        "totalFilesSize" : "19.63 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "Manifest",
+        "numberOfFiles" : 23,
+        "totalFilesSize" : "50.67 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "SPI",
+        "numberOfFiles" : 18,
+        "totalFilesSize" : "2.3 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "DTD",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "4.39 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      } ],
+      "statsPerIndexer" : [ {
+        "indexId" : "Stubs",
+        "partOfTotalIndexingTime" : "45.4%"
+      }, {
+        "indexId" : "IdIndex",
+        "partOfTotalIndexingTime" : "25.2%"
+      }, {
+        "indexId" : "Trigram.Index",
+        "partOfTotalIndexingTime" : "13.4%"
+      }, {
+        "indexId" : "bytecodeAnalysis",
+        "partOfTotalIndexingTime" : "13.4%"
+      }, {
+        "indexId" : "org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex",
+        "partOfTotalIndexingTime" : "1.5%"
+      }, {
+        "indexId" : "org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex",
+        "partOfTotalIndexingTime" : "1.1%"
+      } ],
+      "fastIndexers" : [ "DomFileIndex", "IdeaPluginRegistrationIndex", "PluginIdDependenciesIndex", "PluginIdModuleIndex", "XmlNamespaces", "ant-imports", "devkit.ExtensionPointIndex", "org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex", "xmlProperties" ]
+    }, {
+      "providerName" : "Module 'blog-1'",
+      "totalNumberOfFiles" : 63,
+      "totalIndexingTime" : "604 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "JAVA",
+        "numberOfFiles" : 24,
+        "totalFilesSize" : "32.83 kB",
+        "partOfTotalIndexingTime" : "42.3%",
+        "partOfTotalContentLoadingTime" : "41.0%"
+      }, {
+        "fileType" : "CLASS",
+        "numberOfFiles" : 26,
+        "totalFilesSize" : "57.59 kB",
+        "partOfTotalIndexingTime" : "27.2%",
+        "partOfTotalContentLoadingTime" : "46.7%"
+      }, {
+        "fileType" : "XML",
+        "numberOfFiles" : 5,
+        "totalFilesSize" : "4.84 kB",
+        "partOfTotalIndexingTime" : "20.4%",
+        "partOfTotalContentLoadingTime" : "3.1%"
+      }, {
+        "fileType" : "YAML",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "1.25 kB",
+        "partOfTotalIndexingTime" : "6.6%",
+        "partOfTotalContentLoadingTime" : "5.1%"
+      }, {
+        "fileType" : "Properties",
+        "numberOfFiles" : 4,
+        "totalFilesSize" : "100 B",
+        "partOfTotalIndexingTime" : "2.3%",
+        "partOfTotalContentLoadingTime" : "4.1%"
+      }, {
+        "fileType" : "GitIgnore file",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "441 B",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "PLAIN_TEXT",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "2.27 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      } ],
+      "statsPerIndexer" : [ {
+        "indexId" : "Stubs",
+        "partOfTotalIndexingTime" : "66.8%"
+      }, {
+        "indexId" : "TodoIndex",
+        "partOfTotalIndexingTime" : "7.2%"
+      }, {
+        "indexId" : "IdIndex",
+        "partOfTotalIndexingTime" : "4.5%"
+      }, {
+        "indexId" : "yaml.keys.name",
+        "partOfTotalIndexingTime" : "4.2%"
+      }, {
+        "indexId" : "Trigram.Index",
+        "partOfTotalIndexingTime" : "3.8%"
+      }, {
+        "indexId" : "bytecodeAnalysis",
+        "partOfTotalIndexingTime" : "3.2%"
+      }, {
+        "indexId" : "java.fun.expression",
+        "partOfTotalIndexingTime" : "3.0%"
+      }, {
+        "indexId" : "java.null.method.argument",
+        "partOfTotalIndexingTime" : "1.8%"
+      }, {
+        "indexId" : "DomFileIndex",
+        "partOfTotalIndexingTime" : "1.5%"
+      }, {
+        "indexId" : "FrameworkDetectionIndex",
+        "partOfTotalIndexingTime" : "1.2%"
+      } ],
+      "fastIndexers" : [ "IdeaPluginRegistrationIndex", "PluginIdDependenciesIndex", "PluginIdModuleIndex", "RelaxSymbolIndex", "XsltSymbolIndex", "ant-imports", "devkit.ExtensionPointIndex", "fileIncludes", "java.binary.plus.expression", "org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex", "org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex", "xmlProperties" ]
+    }, {
+      "providerName" : "com.intellij.javaee.ExternalResourcesRootsProvider@4dd0a134",
+      "totalNumberOfFiles" : 219,
+      "totalIndexingTime" : "342 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "XML",
+        "numberOfFiles" : 21,
+        "totalFilesSize" : "1.06 MB",
+        "partOfTotalIndexingTime" : "52.8%",
+        "partOfTotalContentLoadingTime" : "35.4%"
+      }, {
+        "fileType" : "RNG Compact",
+        "numberOfFiles" : 122,
+        "totalFilesSize" : "461.81 kB",
+        "partOfTotalIndexingTime" : "20.7%",
+        "partOfTotalContentLoadingTime" : "40.5%"
+      }, {
+        "fileType" : "DTD",
+        "numberOfFiles" : 62,
+        "totalFilesSize" : "601.85 kB",
+        "partOfTotalIndexingTime" : "20.7%",
+        "partOfTotalContentLoadingTime" : "21.0%"
+      }, {
+        "fileType" : "XHTML",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "2.91 kB",
+        "partOfTotalIndexingTime" : "2.7%",
+        "partOfTotalContentLoadingTime" : "1.0%"
+      }, {
+        "fileType" : "Shell Script",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "1.48 kB",
+        "partOfTotalIndexingTime" : "2.2%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "PLAIN_TEXT",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "9.99 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "PATCH",
+        "numberOfFiles" : 8,
+        "totalFilesSize" : "4.45 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "textmate",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "1.57 kB",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      } ],
+      "statsPerIndexer" : [ {
+        "indexId" : "IdIndex",
+        "partOfTotalIndexingTime" : "47.9%"
+      }, {
+        "indexId" : "Trigram.Index",
+        "partOfTotalIndexingTime" : "18.2%"
+      }, {
+        "indexId" : "XmlNamespaces",
+        "partOfTotalIndexingTime" : "15.5%"
+      }, {
+        "indexId" : "SchemaTypeInheritance",
+        "partOfTotalIndexingTime" : "7.7%"
+      }, {
+        "indexId" : "XmlTagNames",
+        "partOfTotalIndexingTime" : "4.7%"
+      }, {
+        "indexId" : "DomFileIndex",
+        "partOfTotalIndexingTime" : "3.4%"
+      }, {
+        "indexId" : "Stubs",
+        "partOfTotalIndexingTime" : "1.5%"
+      } ],
+      "fastIndexers" : [ "IdeaPluginRegistrationIndex", "PluginIdDependenciesIndex", "PluginIdModuleIndex", "ant-imports", "devkit.ExtensionPointIndex", "xmlProperties" ]
+    } ]
+  }
+}

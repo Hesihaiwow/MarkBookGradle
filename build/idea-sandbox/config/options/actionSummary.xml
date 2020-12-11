@@ -1,0 +1,18 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="FileChooser.GotoDesktop">
+        <ActionSummary times="2" last="1607656250659" />
+      </entry>
+      <entry key="OpenFile">
+        <ActionSummary times="1" last="1607656178118" />
+      </entry>
+      <entry key="WelcomeScreen.CreateNewProject">
+        <ActionSummary times="1" last="1607655668411" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="3" last="1607656121685" />
+      </entry>
+    </data>
+  </component>
+</application>
